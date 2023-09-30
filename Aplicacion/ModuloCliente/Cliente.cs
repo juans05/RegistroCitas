@@ -30,9 +30,9 @@ namespace Aplicacion.ModuloCliente
             return await this._ClienteService.EliminarCliente(idCliente);
         }
 
-        public async  Task<StatusReponse<List<DTOCliente>>> ListarCliente(DTOCliente entidad)
+        public async  Task<StatusReponse<List<DTOCliente>>> ListarCliente(string nroDocumento)
         {
-            return await this._ClienteService.ListarCliente(entidad);
+            return await this._ClienteService.ListarCliente(nroDocumento);
         }
 
         public async Task<StatusReponse<List<Especialidad>>> listarEspecialidad()

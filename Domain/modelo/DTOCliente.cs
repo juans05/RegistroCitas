@@ -10,8 +10,7 @@ namespace Domain.modelo
     public  class DTOCliente
     {
         public int idCliente { get; set; }
-        [Required(ErrorMessage = "El número de documento es obligatorio.")]
-        [RegularExpression(@"^\d{8}$", ErrorMessage = "El número de documento debe tener 8 dígitos.")]
+      
         public string NumeroDocumento { get; set; }
         [Required(ErrorMessage = "El campo Nombre es obligatorio.")]
         [StringLength(50, ErrorMessage = "El campo Nombre debe tener como máximo 50 caracteres.")]

@@ -48,7 +48,7 @@ namespace infraestructura.ModuloCliente
             }
             return entity;
         }
-        public async Task<StatusReponse<List<DTOCliente>>> ListarCliente(DTOCliente entidad)
+        public async Task<StatusReponse<List<DTOCliente>>> ListarCliente(string nroDocumento)
         {
             StatusReponse<List<DTOCliente>> entity = new StatusReponse<List<DTOCliente>>();
             using (var scope = await mConexion.BeginConnection())
@@ -58,7 +58,7 @@ namespace infraestructura.ModuloCliente
                     var items = await scope.QueryAsync<DTOCliente>("Sp_listarCliente",
                     new
                     {
-                        @nroDocumento = entidad.NumeroDocumento
+                        @nroDocumento = nroDocumento
                     }, commandType: CommandType.StoredProcedure);
 
                     entity.Data = (List<DTOCliente>)items;
@@ -151,6 +151,7 @@ namespace infraestructura.ModuloCliente
         public async Task<StatusReponse<DTOCliente>> updateCliente(DTOCliente entidad)
         {
             StatusReponse<DTOCliente> status = new StatusReponse<DTOCliente>() { Success = false, Title = "Error en la Actualizacón" };
+            DTOCliente entity = new DTOCliente();
             using (var scope = await mConexion.BeginConnection())
             {
                 try
@@ -158,14 +159,17 @@ namespace infraestructura.ModuloCliente
                     var items = await scope.QueryAsync<DTOCliente>("Sp_udpateCliente",
                     new
                     {
+                        @idCliente = entidad.idCliente,
                         @idespecialidad = entidad.id_Especialidad,
                         @nombreCompleto = entidad.nombreCompleto,
                         @id_Tipodocumento = entidad.id_Tipodocumento,
                         @nroDocumento = entidad.NumeroDocumento,
-                        @idCliente = entidad.idCliente,
+                       
                     }, commandType: CommandType.StoredProcedure);
+                    entity = (DTOCliente)items.FirstOrDefault();
                     status.Success = true;
                     status.Title = "Se actualizo el cliente";
+                    status.Data = entity;
                 }
                 catch (Exception e)
                 {
@@ -201,6 +205,37 @@ namespace infraestructura.ModuloCliente
                 catch (Exception ex)
                 {
                    
+                }
+            }
+            return resultado;
+        }
+
+        public async Task<bool> consultarExistePersona(int id)
+        {
+            DTOCliente entity = new DTOCliente();
+            Boolean resultado = false;
+
+            using (var scope = await mConexion.BeginConnection())
+            {
+                try
+                {
+                    var items = await scope.QueryAsync<DTOCliente>("SP_existeidCliente",
+                    new
+                    {
+                        @idCliente = id
+                    }, commandType: CommandType.StoredProcedure); ;
+
+                    entity = (DTOCliente)items.FirstOrDefault();
+                    if (entity.existeUusario > 0)
+                    {
+                        resultado = true;
+
+                    }
+                    else { resultado = false; }
+                }
+                catch (Exception ex)
+                {
+
                 }
             }
             return resultado;

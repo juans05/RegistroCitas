@@ -16,11 +16,12 @@ namespace Domain.interfaces
 
         Task<StatusReponse<DTOCliente>> EliminarCliente(int idCliente);
 
-        Task<StatusReponse<List<DTOCliente>>> ListarCliente(DTOCliente entidad);
+        Task<StatusReponse<List<DTOCliente>>> ListarCliente(string nroDocumento);
 
         Task<DTOCliente> ConsultarIdCliente(DTOCliente entidad);
 
         Task<StatusReponse<List<Especialidad>>> listarEspecialidad();
         Task<bool> consultarExisteDni(string numeroDocumento);
+        Task<bool> consultarExistePersona(int id);
     }
 }

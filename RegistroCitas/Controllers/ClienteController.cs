@@ -23,12 +23,11 @@ namespace RegistroCitas.Controllers
             _personaCommonService = personaCommonService;
         }
         // GET: api/<ClienteController>
-        [HttpGet]
-        public async Task<IActionResult> Get(string nroDocumento)
+        [HttpGet()]
+        public async Task<IActionResult> Get()
         {
-            DTOCliente dtCliente = new DTOCliente();
-            dtCliente.NumeroDocumento = nroDocumento;
-            var clientes = await _personaCommonService.ListarCliente(dtCliente);
+           string pDocumento = "";
+            var clientes = await _personaCommonService.ListarCliente(pDocumento);
             return Ok(clientes);
         }
 
@@ -67,8 +66,23 @@ namespace RegistroCitas.Controllers
 
         // PUT api/<ClienteController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> Put(int id, DTOCliente dtCliente)
         {
+            var existeDNi = _personaCommonService.consultarExistePersona(id);
+
+
+            if (existeDNi.IsCompleted)
+            {
+                dtCliente.idCliente = id;
+                var clientes = await _personaCommonService.updateCliente(dtCliente);
+                return Ok(clientes);
+            }
+            else
+            {
+
+                return  Ok("Usuario con dni existente");
+            }
+
         }
 
         // DELETE api/<ClienteController>/5

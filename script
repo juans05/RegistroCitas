@@ -1,4 +1,4 @@
-CREATE DATABASE prueba;
+CREATE DATABASE registroCitas;
 go
 
 

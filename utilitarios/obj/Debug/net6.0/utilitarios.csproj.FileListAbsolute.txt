@@ -9,3 +9,14 @@ D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.dll
 D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\refint\utilitarios.dll
 D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.pdb
 D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\ref\utilitarios.dll
+D:\RegistroCitas\utilitarios\bin\Debug\net6.0\utilitarios.deps.json
+D:\RegistroCitas\utilitarios\bin\Debug\net6.0\utilitarios.dll
+D:\RegistroCitas\utilitarios\bin\Debug\net6.0\utilitarios.pdb
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.AssemblyInfoInputs.cache
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.AssemblyInfo.cs
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.csproj.CoreCompileInputs.cache
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.dll
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\refint\utilitarios.dll
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.pdb
+D:\RegistroCitas\utilitarios\obj\Debug\net6.0\ref\utilitarios.dll

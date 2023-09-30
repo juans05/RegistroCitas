@@ -24,6 +24,11 @@ namespace Aplicacion
            
         }
 
+        public async Task<bool> consultarExistePersona(int id)
+        {
+            return await _personaRepository.consultarExistePersona(id);
+        }
+
         public async Task<DTOCliente> ConsultarIdCliente(DTOCliente entidad)
         {
             return await _personaRepository.ConsultarIdCliente(entidad);
@@ -34,9 +39,9 @@ namespace Aplicacion
             return await _personaRepository.EliminarCliente(idCliente);
         }
 
-        public async Task<StatusReponse<List<DTOCliente>>> ListarCliente(DTOCliente entidad)
+        public async Task<StatusReponse<List<DTOCliente>>> ListarCliente(string nroDocumento)
         {
-            return await _personaRepository.ListarCliente(entidad);
+            return await _personaRepository.ListarCliente(nroDocumento);
         }
 
         public async Task<StatusReponse<List<Especialidad>>> listarEspecialidad()
