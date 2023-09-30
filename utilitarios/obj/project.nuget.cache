@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VSwBBQN3b0INk7dijTfOW644mI8p4UX8EzlYZvKVjTazlQ32e9reEG8C4b7Q76sHn9VRt7pp8DYVxeW1yxIaCg==",
+  "dgSpecHash": "OYczYrWiN8dvco1g2MHhVJTZYxBo02VKoc4Dzih9FQOXKL+zaWsDsgTAHx8JC91a+8+fih161kyaIJ3tYWdlOQ==",
   "success": true,
-  "projectFilePath": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj",
+  "projectFilePath": "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

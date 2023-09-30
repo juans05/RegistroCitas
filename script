@@ -1,3 +1,22 @@
+CREATE DATABASE prueba;
+go
+
+
+CREATE TABLE [dbo].[Cliente](
+	[idCliente] [int] IDENTITY(1,1) NOT NULL,
+	[nombreCompleto] [nvarchar](100) NULL,
+	[nroDocumento] [nvarchar](9) NULL,
+	[id_especialidad] [int] NULL,
+	[created_at] [datetime] NULL,
+	[TipoDocumento] [int] NULL,
+ CONSTRAINT [PK_Cliente] PRIMARY KEY CLUSTERED 
+(
+	[idCliente] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
 CREATE PROCEDURE Sp_CreateCliente
 	-- Add the parameters for the stored procedure here
 	@idespecialidad  int,

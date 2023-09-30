@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prueba_SL\\RegistroCitas\\Aplicacion\\Aplicacion.csproj": {}
+    "D:\\RegistroCitas\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "D:\\Prueba_SL\\RegistroCitas\\Aplicacion\\Aplicacion.csproj": {
+    "D:\\RegistroCitas\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prueba_SL\\RegistroCitas\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "D:\\RegistroCitas\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "D:\\Prueba_SL\\RegistroCitas\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "D:\\RegistroCitas\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Prueba_SL\\RegistroCitas\\Aplicacion\\obj\\",
+        "outputPath": "D:\\RegistroCitas\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj"
+              "D:\\RegistroCitas\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\RegistroCitas\\Domain\\Domain.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj": {
+    "D:\\RegistroCitas\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\RegistroCitas\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj",
+        "projectPath": "D:\\RegistroCitas\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Prueba_SL\\RegistroCitas\\Domain\\obj\\",
+        "outputPath": "D:\\RegistroCitas\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj": {
-                "projectPath": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj"
+              "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj": {
+                "projectPath": "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj": {
+    "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj",
+        "projectUniqueName": "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj",
         "projectName": "utilitarios",
-        "projectPath": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj",
+        "projectPath": "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\obj\\",
+        "outputPath": "D:\\RegistroCitas\\utilitarios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

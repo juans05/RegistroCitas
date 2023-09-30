@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj": {}
+    "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj": {}
   },
   "projects": {
-    "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj": {
+    "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj",
+        "projectUniqueName": "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj",
         "projectName": "utilitarios",
-        "projectPath": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\utilitarios.csproj",
+        "projectPath": "D:\\RegistroCitas\\utilitarios\\utilitarios.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Prueba_SL\\RegistroCitas\\utilitarios\\obj\\",
+        "outputPath": "D:\\RegistroCitas\\utilitarios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

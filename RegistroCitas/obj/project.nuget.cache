@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RNgV5DndWVPi4iqJSigxokFrYv8hJxP1Sy7M2+6DWH2QwLX+YPQ0rM+h9HiiHHqaOAIV41T6ErjSiX0cd3gwrQ==",
+  "dgSpecHash": "AhW4HxPA8LdWS2n6spE1iBnFIlkgJ40njDN1xDBIN8WoiLOF0inSyMswSFHxS/ebexP+Uq62Tnz9dNc1Z0DPjQ==",
   "success": true,
-  "projectFilePath": "D:\\Prueba_SL\\RegistroCitas\\RegistroCitas\\RegistroCitas.csproj",
+  "projectFilePath": "D:\\RegistroCitas\\RegistroCitas\\RegistroCitas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

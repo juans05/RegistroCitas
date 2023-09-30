@@ -1007,11 +1007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Prueba_SL\\RegistroCitas\\RegistroCitas\\RegistroCitas.csproj",
+      "projectUniqueName": "D:\\RegistroCitas\\RegistroCitas\\RegistroCitas.csproj",
       "projectName": "RegistroCitas",
-      "projectPath": "D:\\Prueba_SL\\RegistroCitas\\RegistroCitas\\RegistroCitas.csproj",
+      "projectPath": "D:\\RegistroCitas\\RegistroCitas\\RegistroCitas.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Prueba_SL\\RegistroCitas\\RegistroCitas\\obj\\",
+      "outputPath": "D:\\RegistroCitas\\RegistroCitas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1032,14 +1032,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Prueba_SL\\RegistroCitas\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "D:\\Prueba_SL\\RegistroCitas\\Aplicacion\\Aplicacion.csproj"
+            "D:\\RegistroCitas\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "D:\\RegistroCitas\\Aplicacion\\Aplicacion.csproj"
             },
-            "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj"
+            "D:\\RegistroCitas\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\RegistroCitas\\Domain\\Domain.csproj"
             },
-            "D:\\Prueba_SL\\RegistroCitas\\infraestructura\\infraestructura.csproj": {
-              "projectPath": "D:\\Prueba_SL\\RegistroCitas\\infraestructura\\infraestructura.csproj"
+            "D:\\RegistroCitas\\infraestructura\\infraestructura.csproj": {
+              "projectPath": "D:\\RegistroCitas\\infraestructura\\infraestructura.csproj"
             }
           }
         }

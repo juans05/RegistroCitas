@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0YNumxnXBH+NsFHTmG38YS5awqk2hnBRy53z+1u5/2JvFSS1trvXrPmGVfUyLjO6WleQsAbm7dzy575s6HGYKw==",
+  "dgSpecHash": "lpGnSTDW5+Z2ftwv1zgXxsARHms1LgEG79TVrzgq2J5laWMixAsEsIhAbfpoOJcBskIE9D60QRpt67jetOhoCA==",
   "success": true,
-  "projectFilePath": "D:\\Prueba_SL\\RegistroCitas\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\RegistroCitas\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
