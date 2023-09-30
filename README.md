@@ -1,5 +1,8 @@
 # RegistroCitas
-#Ejecutar este script
+==================
+*   #Ejecutar este script
+
+  
 CREATE PROCEDURE Sp_CreateCliente
 	-- Add the parameters for the stored procedure here
 	@idespecialidad  int,
