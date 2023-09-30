@@ -1,0 +1,15 @@
+D:\Prueba_SL\RegistroCitas\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Prueba_SL\RegistroCitas\Domain\bin\Debug\net6.0\Domain.dll
+D:\Prueba_SL\RegistroCitas\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.dll
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Prueba_SL\RegistroCitas\Domain\bin\Debug\net6.0\utilitarios.dll
+D:\Prueba_SL\RegistroCitas\Domain\bin\Debug\net6.0\utilitarios.pdb
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Prueba_SL\RegistroCitas\Domain\obj\Debug\net6.0\Domain.csproj.CopyComplete

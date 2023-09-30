@@ -1,0 +1,17 @@
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.csproj.AssemblyReference.cache
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.AssemblyInfoInputs.cache
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.AssemblyInfo.cs
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.csproj.CoreCompileInputs.cache
+D:\Prueba_SL\RegistroCitas\infraestructura\bin\Debug\net6.0\infraestructura.deps.json
+D:\Prueba_SL\RegistroCitas\infraestructura\bin\Debug\net6.0\infraestructura.dll
+D:\Prueba_SL\RegistroCitas\infraestructura\bin\Debug\net6.0\infraestructura.pdb
+D:\Prueba_SL\RegistroCitas\infraestructura\bin\Debug\net6.0\Domain.dll
+D:\Prueba_SL\RegistroCitas\infraestructura\bin\Debug\net6.0\utilitarios.dll
+D:\Prueba_SL\RegistroCitas\infraestructura\bin\Debug\net6.0\Domain.pdb
+D:\Prueba_SL\RegistroCitas\infraestructura\bin\Debug\net6.0\utilitarios.pdb
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.csproj.CopyComplete
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.dll
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\refint\infraestructura.dll
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\infraestructura.pdb
+D:\Prueba_SL\RegistroCitas\infraestructura\obj\Debug\net6.0\ref\infraestructura.dll

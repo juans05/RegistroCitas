@@ -1,0 +1,11 @@
+D:\Prueba_SL\RegistroCitas\utilitarios\bin\Debug\net6.0\utilitarios.deps.json
+D:\Prueba_SL\RegistroCitas\utilitarios\bin\Debug\net6.0\utilitarios.dll
+D:\Prueba_SL\RegistroCitas\utilitarios\bin\Debug\net6.0\utilitarios.pdb
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.AssemblyInfoInputs.cache
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.AssemblyInfo.cs
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.csproj.CoreCompileInputs.cache
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.dll
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\refint\utilitarios.dll
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\utilitarios.pdb
+D:\Prueba_SL\RegistroCitas\utilitarios\obj\Debug\net6.0\ref\utilitarios.dll
